@@ -1,0 +1,10 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "products": "Зroducts",
+      "whyUs": "Why us",
+      "contact": "contact"
+    }
+  }
+}

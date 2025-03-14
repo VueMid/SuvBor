@@ -1,0 +1,86 @@
+.headerHiddenNavbar {
+  display: none;
+}
+.headerHiddenNavbar__top-box {
+}
+.headerHiddenNavbar__close-burger {
+}
+.headerHiddenNavbar__close-burger-image {
+}
+.headerHiddenNavbar__nav {
+}
+.headerHiddenNavbar__list {
+}
+.headerHiddenNavbar__lists {
+}
+.headerHiddenNavbar__links {
+}
+.headerHiddenNavbar__links-text {
+  font-family: "Nunito";
+}
+.headerHiddenNavbar__bottom-box {
+}
+.headerHiddenNavbar__icon-main-box {
+}
+.headerHiddenNavbar__icon-box {
+}
+.headerHiddenNavbar__icons {
+}
+.headerHiddenNavbar__tel-link {
+  font-family: "Nunito";
+}
+.headerHiddenNavbar__span {
+  font-family: "Nunito";
+}
+@media (max-width: 1024px) {
+  .headerHiddenNavbar {
+    position: fixed !important;
+    display: flex;
+    position: relative;
+  }
+  .headerHiddenNavbar::after {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-image: url("../../../assets/icons/hidden__background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .headerHiddenNavbar__top-box {
+  }
+  .headerHiddenNavbar__close-burger {
+  }
+  .headerHiddenNavbar__close-burger-image {
+  }
+  .headerHiddenNavbar__nav {
+  }
+  .headerHiddenNavbar__list {
+  }
+  .headerHiddenNavbar__lists {
+  }
+  .headerHiddenNavbar__links {
+  }
+  .headerHiddenNavbar__links-text {
+    font-family: "Nunito";
+  }
+  .headerHiddenNavbar__bottom-box {
+  }
+  .headerHiddenNavbar__icon-main-box {
+  }
+  .headerHiddenNavbar__icon-box {
+  }
+  .headerHiddenNavbar__icons {
+  }
+  .headerHiddenNavbar__tel-link {
+    font-family: "Nunito";
+  }
+  .headerHiddenNavbar__span {
+    font-family: "Nunito";
+  }
+}

@@ -1,0 +1,84 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark__blue: #1a367c;
+  --green: #36b864;
+  --dark__cyan: #262d32;
+  --gray: #7f868c;
+  --dark-gray: #485158;
+  --dark-skyblue: #006ec9;
+  --skyblue: #6686d4;
+}
+::-webkit-scrollbar {
+  width: 0.45rem;
+}
+::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    0deg,
+    rgba(54, 184, 100, 0.611),
+    rgba(84, 223, 133, 0.716),
+    rgb(54, 184, 99),
+    rgb(54, 184, 99)
+  );
+  border-radius: 25px;
+}
+::selection {
+  background-color: var(--dark__blue);
+  color: var(--white);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style-type: none;
+}
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  display: inline-block;
+}
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  font-family: "Be Vietnam Pro", "Lato", "Outfit", "Work Sans";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  height: 100%;
+  line-height: 1.5;
+  background-color: var(--white);
+  color: var(--black);
+  overflow-x: hidden;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1366px;
+}
+@media (max-width: 1365px) {
+  .container {
+    width: 100% !important;
+    margin: 0 auto;
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}

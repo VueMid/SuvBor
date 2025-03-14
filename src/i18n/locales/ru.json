@@ -1,0 +1,10 @@
+{
+  "header": {
+    "nav": {
+      "home": "Bosh sahifa",
+      "products": "Продукты",
+      "whyUs": "Почему мы",
+      "contact": "Контакт"
+    }
+  }
+}

@@ -1,35 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+import React, { useEffect, useState } from "react"
+import HeaderLayout from './layout/HeaderLayout/HeaderLayout'
+import HomePage from './pages/HomePage'
+import FooterLayout from './layout/FooterLayout/FooterLayout'
+import favicon from '../public/favicon.svg'
+export default function App() {
+  const [loading, setLoading] = useState(true)
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1500)
+  }, [])
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <main>
+      <HeaderLayout />
+      <HomePage />
+      <FooterLayout />
+      <div className={`preloader__box w-full h-[100vh] fixed top-0 left-0 right-0 flex justify-center items-center mx-auto z-[2222] duration-500 bg-[#1A367C] ${loading ? "opacity-100 visible" : "opacity-0 collapse"}`}>
+        <img className='preloader__image animate-ping w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[350px] lg:h-[350px]' src={favicon} alt="loading..." />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    </main>
   )
 }
-
-export default App

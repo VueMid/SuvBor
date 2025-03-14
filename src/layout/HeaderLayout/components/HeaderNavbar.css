@@ -1,0 +1,118 @@
+.headerNavbar {
+}
+.headerNavbar__logo-link {
+  display: none;
+}
+.headerNavbar__logo-image {
+}
+.headerNavbar__nav {
+  display: flex;
+}
+.headerNavbar__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+}
+.headerNavbar__lists {
+}
+.headerNavbar__links {
+}
+.headerNavbar__links-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  font-family: "Nunito";
+  color: #7f868c;
+}
+.headerNavbar__tel-link {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  font-family: "Nunito";
+  color: #7f868c;
+  transition: 500ms ease all;
+}
+.headerNavbar__tel-link:hover {
+  color: #485158;
+  transition: 500ms ease all;
+}
+.headerNavbar__span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  font-family: "Nunito";
+  color: #485158;
+}
+@media (max-width: 1160px) {
+  .headerNavbar {
+  }
+  .headerNavbar__logo-link {
+    display: none;
+  }
+  .headerNavbar__logo-image {
+  }
+  .headerNavbar__nav {
+    display: flex;
+  }
+  .headerNavbar__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .headerNavbar__lists {
+  }
+  .headerNavbar__links {
+  }
+  .headerNavbar__links-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    font-family: "Nunito";
+    color: #7f868c;
+  }
+  .headerNavbar__tel-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    font-family: "Nunito";
+    color: #7f868c;
+  }
+  .headerNavbar__span {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    font-family: "Nunito";
+    color: #485158;
+  }
+}
+@media (max-width: 1023px) {
+  .headerNavbar {
+  }
+  .headerNavbar__logo-link {
+    display: flex;
+  }
+  .headerNavbar__logo-image {
+  }
+  .headerNavbar__nav {
+    display: none;
+  }
+  .headerNavbar__list {
+  }
+  .headerNavbar__lists {
+  }
+  .headerNavbar__links {
+  }
+  .headerNavbar__links-text {
+    font-family: "Nunito";
+  }
+  .headerNavbar__tel-link {
+    font-family: "Nunito";
+  }
+  .headerNavbar__span {
+    font-family: "Nunito";
+  }
+}

@@ -1,0 +1,26 @@
+.headerLogo {
+}
+.headerLogo__open-burger-button {
+  display: none;
+}
+.headerLogo__open-burger-icon {
+}
+.headerLogo__logo-link {
+  display: flex;
+}
+.headerLogo__logo-image {
+}
+@media (max-width: 1023px) {
+  .headerLogo {
+  }
+  .headerLogo__open-burger-button {
+    display: flex;
+  }
+  .headerLogo__open-burger-icon {
+  }
+  .headerLogo__logo-link {
+    display: none;
+  }
+  .headerLogo__logo-image {
+  }
+}
