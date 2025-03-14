@@ -34,20 +34,9 @@
 }
 @media (max-width: 1024px) {
   .headerHiddenNavbar {
-    position: fixed !important;
     display: flex;
-    position: relative;
-  }
-  .headerHiddenNavbar::after {
-    z-index: -1;
-    position: absolute;
-    content: "";
-    display: inline-block;
-    width: 100%;
-    height: 100vh;
-    top: 0;
-    right: 0;
-    left: 0;
+    position: fixed !important;
+    background-position: top center;
     background-image: url("../../../assets/icons/hidden__background.svg");
     background-repeat: no-repeat;
     background-size: cover;

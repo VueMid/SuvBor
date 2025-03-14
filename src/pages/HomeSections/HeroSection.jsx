@@ -22,7 +22,7 @@ export default function HeroSection() {
     ]
     return (
         <div>
-            <section className="hero mt-[42px] md:mt-[58px]">
+            <section className="hero mt-[115px] md:mt-[154px] lg:mt-[198px]">
                 <div className="container hero__container px-[15px] md:px-[32px] lg:flex lg:flex-row lg:justify-between lg:items-start">
                     <div className="hero__left-box flex flex-col justify-center items-start">
                         <h2 className="hero__title text-[24px] font-bold text-[#1A367C] mb-3 md:text-[36px]">Suv bor bu - <span className="hero__title-span text-[20px] font-semibold md:text-[32px]">Oson buyurtma</span></h2>
@@ -42,9 +42,9 @@ export default function HeroSection() {
                                 ))}
                             </div>
                         </div>
-                        <a className="hero__link flex flex-row justify-center items-center ont-normal text-[16px] text-white active:opacity-40 duration-150 rounded-[66px] lg:text-[18px]" href="">
+                        <a className="hero__link flex flex-row justify-center items-center font-normal text-[16px] text-white active:opacity-40 duration-150 rounded-[66px] lg:text-[18px]" href="">
                             Saytga o'tish
-                            <i className="fa-solid fa-arrow-right fa-beat-fade ms-4"></i>
+                            <i className="fa-solid fa-arrow-right ms-4"></i>
                         </a>
                     </div>
                     <img className="hero__right-image hidden object-cover lg:block w-[351px] h-[306px] xl:object-contain xl:w-[609px] xl:h-[565px]" src={cooler} alt="cooler" />
