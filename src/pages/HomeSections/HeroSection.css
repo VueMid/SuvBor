@@ -1,0 +1,403 @@
+.hero {
+}
+.hero__container {
+}
+.hero__left-box {
+}
+.hero__title {
+  font-family: "Nunito";
+}
+.hero__title-span {
+  font-family: "Nunito";
+}
+.hero__text {
+  font-family: "Nunito";
+}
+.hero__left-image {
+}
+.hero__left-mini-box {
+}
+.hero__mini-title {
+  font-family: "Nunito";
+}
+.hero__mini-text {
+  font-family: "Nunito";
+}
+.hero__statistics-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.hero__mini-statistics-box {
+  margin-left: auto !important;
+}
+.hero__statistics-number {
+  font-family: "Nunito";
+}
+.hero__statistics-text {
+  font-family: "Nunito";
+}
+.hero__link {
+  padding: 15px 76px;
+  background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+  font-family: "Nunito";
+  border: 2px solid #1a367c !important;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+.hero__right-image {
+}
+
+@media (max-width: 1024px) {
+  .hero {
+  }
+  .hero__container {
+  }
+  .hero__left-box {
+  }
+  .hero__title {
+    font-family: "Nunito";
+  }
+  .hero__title-span {
+    font-family: "Nunito";
+  }
+  .hero__text {
+    font-family: "Nunito";
+  }
+  .hero__left-image {
+  }
+  .hero__left-mini-box {
+    width: 649px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__mini-title {
+    font-family: "Nunito";
+  }
+  .hero__mini-text {
+    font-family: "Nunito";
+  }
+  .hero__statistics-box {
+  }
+  .hero__mini-statistics-box {
+  }
+  .hero__statistics-number {
+    font-family: "Nunito";
+  }
+  .hero__statistics-text {
+    font-family: "Nunito";
+  }
+  .hero__link {
+    padding: 15px 76px;
+    background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+    font-family: "Poppins";
+    border: 2px solid #1a367c !important;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  .hero__right-image {
+  }
+}
+@media (max-width: 767px) {
+  .hero {
+  }
+  .hero__container {
+  }
+  .hero__left-box {
+  }
+  .hero__title {
+    font-family: "Nunito";
+  }
+  .hero__title-span {
+    font-family: "Nunito";
+  }
+  .hero__text {
+    font-family: "Nunito";
+  }
+  .hero__left-image {
+  }
+  .hero__left-mini-box {
+    width: 649px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between !important;
+    align-items: center;
+  }
+  .hero__mini-title {
+    font-family: "Nunito";
+  }
+  .hero__mini-text {
+    font-family: "Nunito";
+  }
+  .hero__statistics-box {
+  }
+  .hero__mini-statistics-box {
+    margin-left: auto !important;
+  }
+  .hero__statistics-number {
+    font-family: "Nunito";
+  }
+  .hero__statistics-text {
+    font-family: "Nunito";
+  }
+  .hero__link {
+    padding: 15px 76px;
+    background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+    font-family: "Poppins";
+    border: 2px solid #1a367c !important;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  .hero__right-image {
+  }
+}
+@media (max-width: 767px) {
+  .hero {
+  }
+  .hero__container {
+  }
+  .hero__left-box {
+  }
+  .hero__title {
+    font-family: "Nunito";
+  }
+  .hero__title-span {
+    font-family: "Nunito";
+  }
+  .hero__text {
+    font-family: "Nunito";
+  }
+  .hero__left-image {
+  }
+  .hero__left-mini-box {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__mini-title {
+    font-family: "Nunito";
+  }
+  .hero__mini-text {
+    font-family: "Nunito";
+  }
+  .hero__statistics-box {
+  }
+  .hero__mini-statistics-box {
+    display: flex;
+    margin: 0 !important;
+  }
+  .hero__statistics-number {
+    font-family: "Nunito";
+  }
+  .hero__statistics-text {
+    font-family: "Nunito";
+  }
+  .hero__link {
+    padding: 15px 76px;
+    background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+    font-family: "Poppins";
+    border: 2px solid #1a367c !important;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  .hero__right-image {
+  }
+}
+@media (max-width: 650px) {
+  .hero {
+  }
+  .hero__container {
+  }
+  .hero__left-box {
+  }
+  .hero__title {
+    font-family: "Nunito";
+  }
+  .hero__title-span {
+    font-family: "Nunito";
+  }
+  .hero__text {
+    font-family: "Nunito";
+  }
+  .hero__left-image {
+  }
+  .hero__left-mini-box {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+  }
+  .hero__mini-title {
+    font-family: "Nunito";
+  }
+  .hero__mini-text {
+    font-family: "Nunito";
+  }
+  .hero__statistics-box {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hero__mini-statistics-box {
+  }
+  .hero__statistics-number {
+    font-family: "Nunito";
+  }
+  .hero__statistics-text {
+    font-family: "Nunito";
+  }
+  .hero__link {
+    padding: 15px 76px;
+    background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+    font-family: "Poppins";
+    border: 2px solid #1a367c !important;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  .hero__right-image {
+  }
+}
+@media (max-width: 350px) {
+  .hero {
+  }
+  .hero__container {
+  }
+  .hero__left-box {
+  }
+  .hero__title {
+    font-family: "Nunito";
+  }
+  .hero__title-span {
+    font-family: "Nunito";
+  }
+  .hero__text {
+    font-family: "Nunito";
+  }
+  .hero__left-image {
+  }
+  .hero__left-mini-box {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+  }
+  .hero__mini-title {
+    margin: 0 auto;
+    text-align: center !important;
+    font-family: "Nunito";
+  }
+  .hero__mini-text {
+    text-align: center;
+    font-family: "Nunito";
+  }
+  .hero__statistics-box {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .hero__mini-statistics-box {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .hero__statistics-number {
+    font-family: "Nunito";
+  }
+  .hero__statistics-text {
+    font-family: "Nunito";
+  }
+  .hero__link {
+    padding: 15px 76px;
+    background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+    font-family: "Poppins";
+    border: 2px solid #1a367c !important;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  .hero__right-image {
+  }
+}
