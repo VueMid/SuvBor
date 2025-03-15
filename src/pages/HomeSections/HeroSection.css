@@ -61,7 +61,6 @@
 }
 .hero__right-image {
 }
-
 @media (max-width: 1024px) {
   .hero {
   }
@@ -302,7 +301,7 @@
     font-family: "Nunito";
   }
   .hero__link {
-    padding: 15px 76px;
+    padding: 15px 56px;
     background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
     background-size: 180% 180%;
     animation: gradient-animation 8s ease infinite;
@@ -380,7 +379,7 @@
     font-family: "Nunito";
   }
   .hero__link {
-    padding: 15px 76px;
+    padding: 15px 46px;
     background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
     background-size: 180% 180%;
     animation: gradient-animation 8s ease infinite;

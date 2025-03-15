@@ -61,7 +61,7 @@ const Counter = ({ target, description }) => {
                     const step = Math.ceil(target / 300);
                     return prev + step > target ? target : prev + step;
                 });
-            }, 8);
+            }, 10);
         } else {
             clearInterval(interval);
         }
