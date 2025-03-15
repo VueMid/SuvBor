@@ -10,7 +10,7 @@ export default function App() {
     setTimeout(() => setLoading(false), 1500)
   }, [])
   return (
-    <main>
+    <main className='overflow-x-hidden'>
       <HeaderLayout />
       <HomePage />
       <FooterLayout />

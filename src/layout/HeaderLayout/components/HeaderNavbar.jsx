@@ -30,7 +30,7 @@ export default function HeaderNavbar() {
                     {links.map((link, index) => (
                         <li className='headerNavbar__lists' key={index}>
                             <a className='headerNavbar__links' href={link.id}>
-                                <p className='headerNavbar__links-text'>{link.texts}</p>
+                                <p className='headerNavbar__links-text link link--thebe'>{link.texts}</p>
                             </a>
                         </li>
                     ))}
