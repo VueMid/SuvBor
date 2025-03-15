@@ -1,0 +1,56 @@
+.notFound {
+  background-color: #1a367c;
+  background-image: url("../assets/icons/hidden__background.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.notFound__container {
+}
+.notFound__top-box {
+}
+.notFound__bottle-image {
+}
+.notFound__number-text {
+  background-size: 180% 180%;
+  animation: gradient-animation-third 4s ease infinite;
+  font-family: "Nunito";
+  background: linear-gradient(
+    180deg,
+    rgb(170, 221, 249),
+    rgb(170, 221, 249, 1),
+    rgb(170, 221, 249, 1),
+    rgb(170, 221, 249, 1),
+    rgba(26, 59, 141, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.notFound__middle-image {
+}
+.notFound__bottom-box {
+}
+.notFound__bottom-text {
+  font-family: "Manrope";
+}
+.notFound__bottom-button {
+  cursor: pointer;
+  padding: 10px 46px;
+  background: linear-gradient(90deg, #1a367c, #1a367c, #ffffff);
+  background-size: 180% 180%;
+  animation: gradient-animation 4s ease infinite;
+  font-family: "Nunito";
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+.notFound__bottom-icon {
+}

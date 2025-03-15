@@ -41,12 +41,11 @@
   font-family: "Nunito";
 }
 .hero__link {
-  padding: 15px 76px;
+  padding: 10px 56px;
   background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
   background-size: 180% 180%;
   animation: gradient-animation 8s ease infinite;
   font-family: "Nunito";
-  border: 2px solid #1a367c !important;
 }
 @keyframes gradient-animation {
   0% {
@@ -103,7 +102,7 @@
     font-family: "Nunito";
   }
   .hero__link {
-    padding: 15px 76px;
+    padding: 10px 56px;
     background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
     background-size: 180% 180%;
     animation: gradient-animation 8s ease infinite;
@@ -167,72 +166,7 @@
     font-family: "Nunito";
   }
   .hero__link {
-    padding: 15px 76px;
-    background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
-    background-size: 180% 180%;
-    animation: gradient-animation 8s ease infinite;
-    font-family: "Poppins";
-    border: 2px solid #1a367c !important;
-  }
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 100%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 100%;
-    }
-  }
-  .hero__right-image {
-  }
-}
-@media (max-width: 767px) {
-  .hero {
-  }
-  .hero__container {
-  }
-  .hero__left-box {
-  }
-  .hero__title {
-    font-family: "Nunito";
-  }
-  .hero__title-span {
-    font-family: "Nunito";
-  }
-  .hero__text {
-    font-family: "Nunito";
-  }
-  .hero__left-image {
-  }
-  .hero__left-mini-box {
-    width: 100% !important;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .hero__mini-title {
-    font-family: "Nunito";
-  }
-  .hero__mini-text {
-    font-family: "Nunito";
-  }
-  .hero__statistics-box {
-  }
-  .hero__mini-statistics-box {
-    display: flex;
-    margin: 0 !important;
-  }
-  .hero__statistics-number {
-    font-family: "Nunito";
-  }
-  .hero__statistics-text {
-    font-family: "Nunito";
-  }
-  .hero__link {
-    padding: 15px 76px;
+    padding: 10px 56px;
     background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
     background-size: 180% 180%;
     animation: gradient-animation 8s ease infinite;
@@ -301,7 +235,7 @@
     font-family: "Nunito";
   }
   .hero__link {
-    padding: 15px 56px;
+    padding: 10px 56px;
     background: linear-gradient(90deg, #1a367c, #1a367c, #1a367c, #ffffff);
     background-size: 180% 180%;
     animation: gradient-animation 8s ease infinite;

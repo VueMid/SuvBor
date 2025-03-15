@@ -25,7 +25,7 @@ export default function HeroSection() {
                             buyurtmachilar belgilagan vaqtda yetkazib bering.
                         </p>
                         <img className="hero__left-image mb-6 md:mb-[36px] object-contain w-full h-[306px] lg:hidden lg:mb-0" src={cooler} alt="cooler" />
-                        <div className="hero__left-mini-box w-full border-[1px] border-[#C0CBE9] rounded-[24px] px-4 py-4 ms-0 mb-4 md:flex md:flex-row md:justify-between md:items-center md:gap-x-[80px] md:mb-[36px]">
+                        <div className="hero__left-mini-box w-full border-[1px] border-[#C0CBE9] rounded-[24px] px-4 py-4 ms-0 mb-6 md:flex md:flex-row md:justify-between md:items-center md:gap-x-[80px] md:mb-[36px]">
                             <div className="flex flex-col justify-center items-start gap-y-2 md:gap-y-3">
                                 <h2 className="hero__mini-title font-semibold text-[20px] leading-[100%] text-[#262D32] md:text-[24px]">
                                     Bizning statistika
@@ -40,7 +40,7 @@ export default function HeroSection() {
                                 ))}
                             </div>
                         </div>
-                        <a className="hero__link flex flex-row justify-center items-center font-normal text-[16px] text-white active:opacity-40 duration-150 rounded-[66px] lg:text-[18px]" href="">
+                        <a className="hero__link flex flex-row justify-center border-2 border-[#1a367c] outline-3 outline-white/30 items-center font-normal text-[16px] text-white active:opacity-40 duration-150 rounded-[66px] lg:text-[18px]" href="">
                             Saytga o'tish
                             <i className="fa-solid fa-arrow-right ms-4"></i>
                         </a>

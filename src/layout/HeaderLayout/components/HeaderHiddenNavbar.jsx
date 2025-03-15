@@ -52,7 +52,7 @@ export default function HeaderHiddenNavbar({ status, func }) {
         },
     ]
     return (
-        <div className={`headerHiddenNavbar z-[1111] fixed w-full h-[100vh] max-h-screen top-0 right-0 left-0 bg-[#1A367C] flex flex-col justify-start items-center px-[17px] py-[30px] duration-500 md:py-[38px] md:px-[33.5px] ${status ? "translate-x-0" : "translate-x-[-100%]"}`}>
+        <div className={`headerHiddenNavbar z-[1111] fixed w-full h-[100vh] max-h-screen top-0 right-0 left-0 bg-[#1A367C] flex flex-col justify-start items-center px-[17px] py-[30px] duration-500 md:py-[28px] md:px-[33.5px] ${status ? "translate-x-0" : "translate-x-[-100%]"}`}>
             <div className="headerHiddenNavbar__top-box w-full flex flex-row justify-between items-center">
                 <button className="headerHiddenNavbar__close-burger align-middle" onClick={func}>
                     <img className="headerHiddenNavbar__close-burger-image object-cover w-[20px] h-[20px] md:w-[30px] md:h-[30px]" src={close__burger} alt="open__burger-icon" />
