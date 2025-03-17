@@ -34,7 +34,7 @@ export default function NotFoundSection() {
                                     }px)`,
                                 transition: "transform 0.1s linear",
                             }}
-                            className="notFound__bottle-image absolute object-contain w-[150px] h-[150px] blur-[1.1px] right-2 top-2 md:w-[200px] md:h-[200px] md:right-5 md:top-5 rotate-30" src={bottle} alt="bottle__image" />
+                            className="notFound__bottle-image absolute object-contain w-[100px] h-[100px] right-2 top-2 md:w-[200px] md:h-[200px] md:right-5 md:top-5 rotate-30" src={bottle} alt="bottle__image" />
                         <p className="notFound__number-text font-extrabold text-[120px] leading-[90px] md:text-[200px] md:leading-[150px] lg:text-[300px] lg:leading-[240px]">4</p>
                         <img
                             style={{
@@ -49,12 +49,12 @@ export default function NotFoundSection() {
                                     }px) translateY(${(mouseY - window.innerHeight / -2) * -0.02}px)`,
                                 transition: "transform 0.1s linear",
                             }}
-                            className="notFound__bottle-image absolute object-contain w-[120px] h-[120px] blur-[1.1px] left-2 bottom-2 md:w-[140px] md:h-[140px] md:left-5 md:bottom-5 rotate-[-30deg]" src={bottle} alt="bottle__image" />
+                            className="notFound__bottle-image absolute object-contain w-[90px] h-[90px] left-2 bottom-2 md:w-[140px] md:h-[140px] md:left-5 md:bottom-5 rotate-[-30deg]" src={bottle} alt="bottle__image" />
                     </div>
-                    <div className="notFound__bottom-box flex flex-col justify-center items-center gap-[20px]">
+                    <div className="notFound__bottom-box flex flex-col justify-center items-center gap-[40px]">
                         <p className="notFound__bottom-text text-[24px] leading-[32px] text-white lg:text-[32px] lg:leading-[38px]">Sahifani topa olmadingizmi?!</p>
                         <Link to='/'>
-                            <button className="notFound__bottom-button text-white border-[1px] border-white flex flex-row justify-center items-center font-normal outline-3 outline-white/80 text-[16px] active:opacity-40 duration-150 rounded-[66px] lg:text-[18px]">Asosiyga qaytish <i className="notFound__bottom-icon fa-solid fa-house fa-beat-fade fa-xs ms-4"></i></button>
+                            <button className="notFound__bottom-button  text-white border-[1px] border-[#AADDF9] flex flex-row justify-center items-center font-normal outline-2 outline-white/80 text-[16px] active:opacity-40 duration-150 rounded-[66px] lg:text-[18px]">Asosiyga qaytish <i className="notFound__bottom-icon fa-solid fa-house fa-beat-fade fa-xs ms-4"></i></button>
                         </Link>
                     </div>
                 </div>

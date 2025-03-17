@@ -11,7 +11,7 @@ export default function HeroSection() {
     return (
         <div>
             <section className="hero mt-[115px] md:mt-[154px] lg:mt-[198px]">
-                <div className="container hero__container px-[15px] md:px-[32px] lg:flex lg:flex-row lg:justify-between lg:items-start">
+                <div className="container hero__container px-4 md:px-[32px] lg:flex lg:flex-row lg:justify-between lg:items-start lg:px-4">
                     <div className="hero__left-box flex flex-col justify-center items-start">
                         <h2 className="hero__title text-[24px] font-bold text-[#1A367C] mb-3 md:text-[36px]">
                             Suv bor bu -{" "}

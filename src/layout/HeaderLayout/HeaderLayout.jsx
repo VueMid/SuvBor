@@ -33,8 +33,8 @@ export default function HeaderLayout() {
     }, [isOpen])
     return (
         <div>
-            <header className={`header fixed top-0 w-full duration-300 ${isScroll ? "bg-inherit backdrop-blur-lg shadow-md" : "bg-white"}`}>
-                <div className="container header__container flex flex-row justify-between items-center px-[15px] py-5 md:px-[32px] md:py-[22px] lg:px-4 lg:py-[20px]">
+            <header className={`header fixed top-0 z-[1111] w-full duration-300 ${isScroll ? "bg-inherit backdrop-blur-lg shadow-md" : "bg-white"}`}>
+                <div className="container header__container flex flex-row justify-between items-center px-4 py-5 md:px-[32px] md:py-[22px] lg:px-4 lg:py-[20px]">
                     <HeaderLogo func={toggleBurger} />
                     <HeaderNavbar />
                     <HeaderLanguage />

@@ -1,0 +1,357 @@
+.carousel {
+  width: 100%;
+  background-image: url("../../assets/icons/hidden__background.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.carousel__container {
+}
+.carousel__top-box {
+}
+.carousel__title {
+  font-family: "Nunito";
+}
+.carousel__bottom {
+}
+.carousel__swiper-box {
+}
+.carousel__swiperSlide {
+  width: 100%;
+  max-width: 418px;
+}
+.swiper-slide {
+  width: 100%;
+  max-width: 418px;
+}
+.carousel__cards {
+  width: 100%;
+  max-width: 418px;
+}
+.carousel__image-box {
+  overflow: hidden !important;
+  z-index: 4;
+  width: 100%;
+  max-width: 418px;
+  height: 262px;
+  background-image: url("../../assets/icons/circle__skyblue.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: 350ms ease all !important;
+}
+.swiper-slide-active .carousel__image-box {
+  overflow: hidden !important;
+  z-index: 4;
+  width: 100%;
+  max-width: 418px;
+  height: 262px;
+  background-image: url("../../assets/icons/sky__background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  transition: 350ms ease all !important;
+}
+.carousel__images {
+  width: 100%;
+  max-width: 418px !important;
+  height: 222px !important;
+  object-fit: contain !important;
+  transform: translateY(105px);
+  transition: 350ms ease all !important;
+}
+.swiper-slide-active .carousel__images {
+  width: 100%;
+  max-width: 418px !important;
+  height: 222px !important;
+  object-fit: contain !important;
+  transform: translateY(0px);
+  transition: 350ms ease all !important;
+}
+.carousel__card-text-box {
+}
+.carousel__litre-texts {
+  font-family: "Nunito";
+}
+.carousel__titles {
+  font-family: "Nunito";
+}
+.carousel__texts {
+  font-family: "Nunito";
+}
+.carousel__buttons {
+  padding: 10px 46px;
+  background: linear-gradient(90deg, #0e8cde, #0e8cde, #0e8cde, #ffffff);
+  background-size: 180% 180%;
+  animation: gradient-animation 8s ease infinite;
+  font-family: "Nunito";
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
+.swiper-button-prev:after {
+  backdrop-filter: blur(5px);
+  content: "" !important;
+  min-width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 2px solid #0e8cde;
+  background-image: url("../../assets/icons/chevron.svg");
+  background-repeat: no-repeat;
+  transform: rotate(0deg);
+  background-position: center;
+  margin-left: 55px;
+}
+.swiper-button-next:after {
+  backdrop-filter: blur(5px);
+  content: "" !important;
+  min-width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 2px solid #0e8cde;
+  background-image: url("../../assets/icons/chevron.svg");
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  background-position: center;
+  margin-right: 55px;
+}
+@media (max-width: 1023px) {
+  .carousel {
+    width: 100%;
+    background-image: url("../../assets/icons/hidden__background.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .carousel__container {
+  }
+  .carousel__top-box {
+  }
+  .carousel__title {
+    font-family: "Nunito";
+  }
+  .carousel__bottom {
+  }
+  .carousel__swiper-box {
+  }
+  .carousel__swiperSlide {
+    width: 100%;
+    max-width: 326px;
+  }
+  .swiper-slide {
+    width: 100%;
+    max-width: 326px;
+  }
+  .carousel__cards {
+    width: 100%;
+    max-width: 326px;
+  }
+  .carousel__image-box {
+    overflow: hidden !important;
+    z-index: 4;
+    width: 100%;
+    max-width: 326px;
+    height: 262px;
+    background-image: url("../../assets/icons/circle__skyblue.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: 350ms ease all !important;
+  }
+  .swiper-slide-active .carousel__image-box {
+    overflow: hidden !important;
+    z-index: 4;
+    width: 100%;
+    max-width: 418px;
+    height: 262px;
+    background-image: url("../../assets/icons/sky__background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: 350ms ease all !important;
+  }
+  .carousel__images {
+    width: 100%;
+    max-width: 418px !important;
+    height: 222px !important;
+    object-fit: contain !important;
+    transform: translateY(105px);
+    transition: 350ms ease all !important;
+  }
+  .swiper-slide-active .carousel__images {
+    width: 100%;
+    max-width: 418px !important;
+    height: 222px !important;
+    object-fit: contain !important;
+    transform: translateY(0px);
+    transition: 350ms ease all !important;
+  }
+  .carousel__card-text-box {
+  }
+  .carousel__litre-texts {
+    font-family: "Nunito";
+  }
+  .carousel__titles {
+    font-family: "Nunito";
+  }
+  .carousel__texts {
+    font-family: "Nunito";
+  }
+  .carousel__buttons {
+    padding: 8px 26px;
+    background: linear-gradient(90deg, #0e8cde, #0e8cde, #0e8cde, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+    font-family: "Nunito";
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  .swiper-button-prev:after {
+    display: none;
+  }
+  .swiper-button-next:after {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .carousel {
+    width: 100%;
+    background-image: url("../../assets/icons/hidden__background.svg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .carousel__container {
+  }
+  .carousel__top-box {
+  }
+  .carousel__title {
+    font-family: "Nunito";
+  }
+  .carousel__bottom {
+  }
+  .carousel__swiper-box {
+  }
+  .carousel__swiperSlide {
+    width: 100%;
+    max-width: 298px;
+  }
+  .swiper-slide {
+    width: 100%;
+    max-width: 298px;
+  }
+  .carousel__cards {
+    width: 100%;
+    max-width: 298px;
+  }
+  .carousel__image-box {
+    overflow: hidden !important;
+    z-index: 4;
+    width: 100%;
+    max-width: 298px;
+    height: 262px;
+    background-image: url("../../assets/icons/circle__skyblue.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: 350ms ease all !important;
+  }
+  .swiper-slide-active .carousel__image-box {
+    overflow: hidden !important;
+    z-index: 4;
+    width: 100%;
+    max-width: 418px;
+    height: 262px;
+    background-image: url("../../assets/icons/sky__background.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    transition: 350ms ease all !important;
+  }
+  .carousel__images {
+    width: 100%;
+    max-width: 418px !important;
+    height: 222px !important;
+    object-fit: contain !important;
+    transform: translateY(105px);
+    transition: 350ms ease all !important;
+  }
+  .swiper-slide-active .carousel__images {
+    width: 100%;
+    max-width: 418px !important;
+    height: 222px !important;
+    object-fit: contain !important;
+    transform: translateY(0px);
+    transition: 350ms ease all !important;
+  }
+  .carousel__card-text-box {
+  }
+  .carousel__litre-texts {
+    font-family: "Nunito";
+  }
+  .carousel__titles {
+    font-family: "Nunito";
+  }
+  .carousel__texts {
+    font-family: "Nunito";
+  }
+  .carousel__buttons {
+    padding: 8px 16px;
+    background: linear-gradient(90deg, #0e8cde, #0e8cde, #0e8cde, #ffffff);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease infinite;
+    font-family: "Nunito";
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  .swiper-button-prev:after {
+    display: none;
+  }
+  .swiper-button-next:after {
+    display: none;
+  }
+}
