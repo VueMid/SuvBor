@@ -197,7 +197,7 @@ export default function FormSection() {
                 ) : null}
               </div>
               <button
-                className="form__button text-lg font-medium pb-[10px] outline-2 outline-white text-white py-[10px] px-[57px] rounded-[16px] active:opacity-70 lg:w-[200px] lg:text-[14px] lg:leading-[16px] lg:py-[0px] lg:pb-3 lg:pt-3 xl:w-[490px] xl:pt-5 xl:pb-5 xl:px-[40px]"
+                className="form__button text-lg duration-150 font-medium pb-[10px] cursor-pointer outline-2 outline-white text-white py-[10px] px-[57px] rounded-[16px] active:opacity-50 lg:w-[200px] lg:text-[14px] lg:leading-[16px] lg:py-[0px] lg:pb-3 lg:pt-3 xl:w-[490px] xl:pt-5 xl:pb-5 xl:px-[40px]"
                 type="submit"
               >
                 Jo'natish
