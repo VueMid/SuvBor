@@ -12,7 +12,7 @@ export default function HeaderNavbar() {
             id: '#whyUs'
         },
         {
-            texts: 'Manzillar',
+            texts: 'Hududlar',
             id: '#addresses'
         },
         {

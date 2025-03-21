@@ -1,0 +1,34 @@
+.footerNavbar__nav {
+}
+.footerNavbar__list {
+}
+.footerNavbar__lists {
+}
+.footerNavbar__links {
+}
+.footerNavbar__link-texts {
+  font-family: "Nunito";
+  transition: 250ms ease all;
+}
+.footerNavbar__link-texts:hover {
+  transition: 250ms ease all;
+  transform: scale(1.1);
+}
+@media (max-width: 1024px) {
+  .footerNavbar__nav {
+  }
+  .footerNavbar__list {
+  }
+  .footerNavbar__lists {
+  }
+  .footerNavbar__links {
+  }
+  .footerNavbar__link-texts {
+    font-family: "Nunito";
+    transition: none !important;
+  }
+  .footerNavbar__link-texts:hover {
+    transition: none !important;
+    transform: translateY(0) !important;
+  }
+}

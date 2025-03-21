@@ -1,9 +1,9 @@
 .carousel {
   width: 100%;
-  background-image: url("../../assets/icons/hidden__background.svg");
+  background-image: url("../../assets/icons/notFound__background.svg");
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 .carousel__container {
 }
@@ -49,7 +49,7 @@
   width: 100%;
   max-width: 418px;
   height: 262px;
-  background-image: url("../../assets/icons/sky__background.svg");
+  background-image: url("../../assets/icons/quadro__skyblue.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -132,7 +132,7 @@
 @media (max-width: 1023px) {
   .carousel {
     width: 100%;
-    background-image: url("../../assets/icons/hidden__background.svg");
+  background-image: url("../../assets/icons/notFound__background.svg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -181,7 +181,7 @@
     width: 100%;
     max-width: 418px;
     height: 262px;
-    background-image: url("../../assets/icons/sky__background.svg");
+    background-image: url("../../assets/icons/quadro__skyblue.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -245,7 +245,7 @@
 @media (max-width: 767px) {
   .carousel {
     width: 100%;
-    background-image: url("../../assets/icons/hidden__background.svg");
+  background-image: url("../../assets/icons/notFound__background.svg");
     background-position: top center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -294,7 +294,7 @@
     width: 100%;
     max-width: 418px;
     height: 262px;
-    background-image: url("../../assets/icons/sky__background.svg");
+    background-image: url("../../assets/icons/quadro__skyblue.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

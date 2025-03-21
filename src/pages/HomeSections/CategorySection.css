@@ -1,0 +1,153 @@
+.category {
+}
+.category__container {
+}
+.category__top-box {
+}
+.category__top-title {
+  font-family: "Nunito";
+}
+.category__top-text {
+  font-family: "Nunito";
+}
+.category__bottom-box {
+}
+.category__bottom-boxes {
+  position: relative;
+}
+.category__bottom-boxes::after {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 120px;
+  height: 132px;
+  bottom: 0;
+  left: 0;
+  background-image: url("../../assets/icons/left__shadow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.category__bottom-boxes::before {
+  position: absolute;
+  content: "";
+  display: inline-block;
+  width: 120px;
+  height: 132px;
+  bottom: 0;
+  right: 0;
+  background-image: url("../../assets/icons/right__shadow.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.category__bottom-boxes-image {
+}
+.category__bottom-boxes-title {
+  font-family: "Nunito";
+}
+.category__bottom-boxes-text {
+  font-family: "Nunito";
+}
+@media (max-width: 1024px) {
+  .category {
+  }
+  .category__container {
+  }
+  .category__top-box {
+  }
+  .category__top-title {
+    font-family: "Nunito";
+  }
+  .category__top-text {
+    font-family: "Nunito";
+  }
+  .category__bottom-box {
+  }
+  .category__bottom-boxes {
+    position: relative;
+  }
+  .category__bottom-boxes::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 62px;
+    bottom: 0;
+    left: 0;
+    background-image: url("../../assets/icons/left__shadow.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .category__bottom-boxes::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 62px;
+    bottom: 0;
+    right: 0;
+    background-image: url("../../assets/icons/right__shadow.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .category__bottom-boxes-image {
+  }
+  .category__bottom-boxes-title {
+    font-family: "Nunito";
+  }
+  .category__bottom-boxes-text {
+    font-family: "Nunito";
+  }
+}
+@media (max-width: 767px) {
+  .category {
+  }
+  .category__container {
+  }
+  .category__top-box {
+  }
+  .category__top-title {
+    font-family: "Nunito";
+  }
+  .category__top-text {
+    font-family: "Nunito";
+  }
+  .category__bottom-box {
+  }
+  .category__bottom-boxes {
+    width: 100%;
+    max-width: 312px;
+    position: relative;
+  }
+  .category__bottom-boxes::after {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 62px;
+    bottom: -7px;
+    left: 0;
+    background-image: url("../../assets/icons/left__shadow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .category__bottom-boxes::before {
+    position: absolute;
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 62px;
+    bottom: -7px;
+    right: 0;
+    background-image: url("../../assets/icons/right__shadow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .category__bottom-boxes-image {
+  }
+  .category__bottom-boxes-title {
+    font-family: "Nunito";
+  }
+  .category__bottom-boxes-text {
+    font-family: "Nunito";
+  }
+}

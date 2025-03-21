@@ -1,0 +1,20 @@
+.certificate {
+}
+.certificate__container {
+}
+.certificate__main-box {
+  background-image: url("../../assets/icons/skyblue__background.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.certificate__text-box {
+}
+.certificate__title {
+  font-family: "Nunito" !important;
+}
+.certificate__text {
+  font-family: "Nunito" !important;
+}
+.certificate__certificate-image {
+}

@@ -27,7 +27,7 @@
   color: #7f868c;
 }
 .headerNavbar__links-text:hover {
-  color: #485158;
+  color: #0E8CDE;
 }
 .headerNavbar__tel-link {
   font-weight: 700;
@@ -38,7 +38,7 @@
   transition: 500ms ease all;
 }
 .headerNavbar__tel-link:hover {
-  color: #485158;
+  color: #0E8CDE;
   transition: 500ms ease all;
 }
 .headerNavbar__span {
@@ -46,7 +46,7 @@
   font-size: 18px;
   line-height: 100%;
   font-family: "Nunito";
-  color: #485158;
+  color: #0E8CDE;
 }
 .link {
   cursor: pointer;

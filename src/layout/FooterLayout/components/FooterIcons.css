@@ -1,0 +1,28 @@
+.footerIcons {
+}
+.footerIcons__icons-box {
+}
+.footerIcons__icons-link {
+}
+.footerIcons__icons-images {
+  transition: 500ms ease all;
+}
+.footerIcons__icons-images:hover {
+  transition: 500ms ease all;
+  transform: translate(3px, -3px);
+}
+@media (max-width: 1024px) {
+  .footerIcons {
+  }
+  .footerIcons__icons-box {
+  }
+  .footerIcons__icons-link {
+  }
+  .footerIcons__icons-images {
+    transition: none !important;
+  }
+  .footerIcons__icons-images:hover {
+    transition: none !important;
+    transform: none !important;
+  }
+}

@@ -1,0 +1,20 @@
+.partners {
+  background-image: url("../../assets/icons/notFound__background.svg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.partners__top-box {
+}
+.partners__title {
+  font-family: "Nunito";
+}
+.partners__text {
+  font-family: "Nunito";
+}
+.partners__marquee-box {
+}
+.partners__marquee-link {
+}
+.partners__marquee-image {
+}
