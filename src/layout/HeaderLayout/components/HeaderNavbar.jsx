@@ -34,7 +34,7 @@ export default function HeaderNavbar() {
                             </a>
                         </li>
                     ))}
-                    <a className="headerNavbar__tel-link text-[#7F868C]" href="tel:+998901234567">+998 90 <span className="headerNavbar__span text-[#485158]">123 45 67</span></a>
+                    <a className="headerNavbar__tel-link" href="tel:+998901234567">+998 90 <span className="headerNavbar__span">123 45 67</span></a>
                 </ul>
             </nav>
         </div>

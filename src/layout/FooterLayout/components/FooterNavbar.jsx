@@ -25,7 +25,7 @@ export default function FooterNavbar() {
                 {links.map((link, index) => (
                     <li className="footerNavbar__lists" key={index}>
                         <a className="footerNavbar__links" href={link.id}>
-                            <p className="footerNavbar__link-texts font-semibold text-[18px] text-[#262D32] active:text-[#1A367C] md:text-[24px] md:leading-[32px] xl:hover:text-[#1A367C]">{link.texts}</p>
+                            <p className="footerNavbar__link-texts font-semibold text-[18px] text-white active:text-white/80 md:text-[24px] md:leading-[32px] xl:hover:text-white/75">{link.texts}</p>
                         </a>
                     </li>
                 ))}

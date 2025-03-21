@@ -24,21 +24,21 @@
   font-size: 18px;
   line-height: 100%;
   font-family: "Nunito";
-  color: #7f868c;
+  color: #262D32;
 }
 .headerNavbar__links-text:hover {
-  color: #0E8CDE;
+  color: skyblue;
 }
 .headerNavbar__tel-link {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
   font-family: "Nunito";
-  color: #7f868c;
+  color: #262D32;
   transition: 500ms ease all;
 }
 .headerNavbar__tel-link:hover {
-  color: #0E8CDE;
+  color: skyblue;
   transition: 500ms ease all;
 }
 .headerNavbar__span {
@@ -46,7 +46,7 @@
   font-size: 18px;
   line-height: 100%;
   font-family: "Nunito";
-  color: #0E8CDE;
+  color: skyblue;
 }
 .link {
   cursor: pointer;
@@ -119,14 +119,14 @@
     font-size: 16px;
     line-height: 100%;
     font-family: "Nunito";
-    color: #7f868c;
+    color: #262D32;
   }
   .headerNavbar__tel-link {
     font-weight: 700;
     font-size: 16px;
     line-height: 100%;
     font-family: "Nunito";
-    color: #7f868c;
+    color: #262D32;
   }
   .headerNavbar__span {
     font-weight: 700;

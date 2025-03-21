@@ -30,7 +30,7 @@ export default function HeroSection() {
                                 <h2 className="hero__mini-title font-semibold text-[20px] leading-[100%] text-[#262D32] md:text-[24px]">
                                     Bizning statistika
                                 </h2>
-                                <p className="hero__mini-text font-normal text-[16px] leading-[100%] text-[#7F868C] w-full mb-6 md:w-[187px]">
+                                <p className="hero__mini-text font-normal text-[16px] leading-[18px] text-[#7F868C] w-full mb-6 md:w-[187px]">
                                     Biz sizga biznesingizdagi sotuvlar oshishiga ko’maklashamiz.
                                 </p>
                             </div>

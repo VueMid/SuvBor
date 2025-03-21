@@ -1,0 +1,54 @@
+#text::placeholder {
+  font-family: "Nunito";
+  color: rgba(255, 255, 255, 0.767);
+}
+#tel::placeholder {
+  font-family: "Nunito";
+  color: rgba(255, 255, 255, 0.767);
+}
+.form {
+}
+.form__container {
+}
+.form__box {
+  background-image: url("../../assets/icons/skyblue__background.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form__top-box {
+}
+.form__top-title {
+  font-family: "Manrope";
+}
+.form__top-text {
+  font-family: "Manrope";
+}
+.form__bottom-box {
+}
+.form__bottom-boxes {
+}
+.form__input {
+}
+.form__bottom-error-text {
+}
+.form__bottom-mini-boxes {
+}
+.form__button {
+  padding: 17px 40px;
+  background: linear-gradient(90deg, #227FCB, #227FCB, #227FCB, #ffffff);
+  background-size: 180% 180%;
+  animation: second-gradient-animation 8s ease infinite;
+  font-family: "Manrope";
+}
+@keyframes second-gradient-animation {
+  0% {
+    background-position: 0% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 100%;
+  }
+}
