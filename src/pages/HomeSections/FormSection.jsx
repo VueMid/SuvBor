@@ -119,7 +119,7 @@ export default function FormSection() {
   }
   async function sendData(username, tel) {
     const TOKEN = `7793154630:AAHhY924WhPxFfrBxFV_RcwKujzlOqV9s9M`;
-    const botID = `-1001837026407`;
+    const botID = `-1002422846640`;
     const info = `User  %0A<strong>👤:</strong> ${username}%0A<strong>☎️: </strong>${tel}`;
     const response = await fetch(
       `https://api.telegram.org/bot${TOKEN}/sendMessage?chat_id=${botID}&text=${info}&parse_mode=html`
