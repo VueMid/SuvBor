@@ -1,32 +1,43 @@
 import React from "react"
 import './HeaderHiddenNavbar.css'
-import location from '../../../assets/icons/location.svg'
-import instagram from '../../../assets/icons/instagram.svg'
-import telegram from '../../../assets/icons/telegram.svg'
-import facebook from '../../../assets/icons/facebook.svg'
-import whatsapp from '../../../assets/icons/whatsapp.svg'
+import white__facebook from '../../../assets/icons/white__facebook.svg'
+import white__gmail from '../../../assets/icons/white__gmail.svg'
+import white__instagram from '../../../assets/icons/white__instagram.svg'
+import white__telegram from '../../../assets/icons/white__telegram.svg'
+import white__whatsapp from '../../../assets/icons/white__whatsapp.svg'
+import white__youtube from '../../../assets/icons/white__youtube.svg'
 import close__burger from '../../../assets/icons/close__burger.svg'
 export default function HeaderHiddenNavbar({ status, func }) {
     const icons = [
         {
-            icon: location,
-            description: 'location__icon'
+            icons: white__facebook,
+            links: 'https://www.facebook.com/profile.php?id=123456789',
+            descriptions: 'facebook__icon',
         },
         {
-            icon: instagram,
-            description: 'instagram__icon'
+            icons: white__gmail,
+            links: 'https://turabovumid587@gmail.com',
+            descriptions: 'gmail__icon',
         },
         {
-            icon: telegram,
-            description: 'telegram__icon'
+            icons: white__instagram,
+            links: 'https://www.instagram.com/umid_dev',
+            descriptions: 'instagram__icon',
         },
         {
-            icon: facebook,
-            description: 'facebook__icon'
+            icons: white__telegram,
+            links: 'https://t.me/vuemid',
+            descriptions: 'telegram__icon',
         },
         {
-            icon: whatsapp,
-            description: 'whatsapp__icon'
+            icons: white__whatsapp,
+            links: 'hhttps://wa.me/998901234567',
+            descriptions: 'whatsapp__icon',
+        },
+        {
+            icons: white__youtube,
+            links: 'https://www.youtube.com/@VueMid',
+            descriptions: 'youtube__icon',
         },
     ]
     const links = [
@@ -75,15 +86,15 @@ export default function HeaderHiddenNavbar({ status, func }) {
                     ))}
                 </ul>
             </nav>
-            <div className="headerHiddenNavbar__bottom-box flex flex-col justify-center items-center gap-[30px] md:gap-[40px]">
-                <div className="headerHiddenNavbar__icon-main-box flex flex-row justify-center items-center gap-4 md:gap-[36px]">
+            <div className="headerHiddenNavbar__bottom-box flex flex-col justify-center items-center gap-[42px] md:gap-[62px]">
+                <div className="headerHiddenNavbar__icon-main-box flex flex-row justify-center items-center gap-[22px] md:gap-[42px]">
                     {icons.map((icon, id) => (
                         <div className="headerHiddenNavbar__icon-box w-full flex flex-row justify-center items-center" key={id}>
-                            <img className="headerHiddenNavbar__icons w-[38px] h-[38px] md:w-[48px] md:h-[48px]" src={icon.icon} alt={icon.description} />
+                            <img className="headerHiddenNavbar__icons w-[30px] h-[30px] md:w-[50px] md:h-[50px]" src={icon.icons} alt={icon.descriptions} />
                         </div>
                     ))}
                 </div>
-                <a className="headerHiddenNavbar__tel-link font-bold text-white/60 text-[18px] leading-[24px] active:text-white" href="tel:+998901234567">+998 90 <span className="headerHiddenNavbar__span font-bold text-white text-[18px] leading-[24px]">123 45 67</span></a>
+                <a className="headerHiddenNavbar__tel-link font-bold text-white/60 text-[18px] leading-[24px] active:text-white md:text-[32px] md:leading-[38px]" href="tel:+998901234567">+998 90 <span className="headerHiddenNavbar__span font-bold text-white text-[18px] leading-[24px] md:text-[32px] md:leading-[38px]">123 45 67</span></a>
             </div>
         </div>
     )
